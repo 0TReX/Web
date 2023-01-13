@@ -49,7 +49,7 @@ div.Text2 {
     padding-left: 0;
     padding-right: 0;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     background-color: #04141c;
 }
 
@@ -77,13 +77,18 @@ div.Text2 {
     font-size: larger;
 }
 
+.footer .love {
+    text-align: right;
+    font-size: larger;
+    padding-right: 20px;
+    color: #ffffff;
+}
 
-/*
-.footer .rights {
+
+/*.footer .rights {
     padding-right: 20px;
     padding-bottom: 20px;
     text-align: right;
     color: #ffffff;
     font-size: larger;
-}
-*/
+}*/
