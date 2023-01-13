@@ -8,17 +8,16 @@
 
 body {
     font-family: monospace;
-    background-color: #02131b;
+    background-color: #ffffff;
 }
 
 nav {
     background: #04141c;
-    height: 80px;
+    height: 90px;
     width: 100%;
 }
 
 label.logo {
-
     color: white;
     font-size: 65px;
     line-height: 80px;
@@ -26,10 +25,64 @@ label.logo {
     font-weight: 900;
 }
 
-
-text.text {
+div.Text1 {
     padding: 40px;
-    color: white;
-    font-size: 45px;
+    color: #000000;
+    font-size: 65px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+}
+
+img {
+    margin: 0;
+    padding-left: 50px;
+}
+
+div.Text2 {
+    padding: 40px;
+    color: #000000;
+    font-size: 40px;
     font-weight: bold;
 }
+
+.footer {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background-color: #04141c;
+}
+
+.footer .social {
+    word-spacing: 20px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer .social a {
+    color: white;
+}
+
+.footer .social a :hover {
+    color: #b1a8a8;
+}
+
+.footer .copy {
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+    color: #ffffff;
+    font-size: larger;
+}
+
+/*
+.footer .rights {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+    color: #ffffff;
+    font-size: larger;
+}
+*/
