@@ -1,0 +1,117 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+/* Top ribbon */
+.top-ribbon {
+    background-color: #1087FF;
+    height: 30px;
+    width: 100%;
+}
+
+.top-ribbon li {
+    display: flex;
+    float: left;
+    padding: 4px 8px;
+}
+
+.top-ribbon li a {
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.top-ribbon li:hover {
+    transform: scale(1.1);
+}
+
+.icons {
+    float: right;
+    padding: 6px 15px;
+    word-spacing: 10px;
+}
+
+.icons a i {
+    color: white;
+}
+
+.icons a i:hover {
+    color: #e0d8d8;
+}
+
+/* top ribbon close */
+
+/* logo ribbon */
+
+.logo-ribbon {
+    height: 63px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 2px 3px 1px #dfe7ef;
+}
+
+.logo-ribbon img {
+    height: 50px;
+    padding-top: 0px;
+    padding-left: 10px;
+}
+
+.logo-ribbon ul {
+    display: flex;
+    float: right;
+    text-transform: uppercase;
+}
+
+.logo-ribbon ul li {
+    padding: 6px 5px;
+    padding-left: 15px;
+}
+
+.logo-ribbon ul li a:hover {
+    color: #1087FF;
+}
+
+.logo-ribbon ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+/* logo ribbon close */
+
+/* footer */
+/* footer {
+    background-color: #201d1d;
+    height:400px;
+    padding: 15px 10px 15px 10px;
+}
+
+footer li {
+    display: flex;
+    float: left;
+}
+
+footer li img {
+    padding: 20px 35px;
+    height: 100px;
+}
+
+footer li div{
+    padding: 20px 35px 0px 35px;
+}
+
+footer li .foot-icons{
+
+} */
+
+/* footer close */
