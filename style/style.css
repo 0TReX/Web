@@ -89,29 +89,16 @@
 
 /* logo ribbon close */
 
-/* footer */
-/* footer {
-    background-color: #201d1d;
-    height:400px;
-    padding: 15px 10px 15px 10px;
-}
+/* card open */
 
-footer li {
-    display: flex;
+.container {
     float: left;
+    
 }
 
-footer li img {
-    padding: 20px 35px;
-    height: 100px;
+.container img{
+    height: 250px;
+    width: 450px;
 }
 
-footer li div{
-    padding: 20px 35px 0px 35px;
-}
-
-footer li .foot-icons{
-
-} */
-
-/* footer close */
+/* card close */
