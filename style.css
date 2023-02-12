@@ -119,3 +119,24 @@ img{
     font-weight: 400;
 }
 /* card close */
+
+/* botton ribbon */
+.bottom-ribbon{
+    background-color: #1c1b29;
+    height:30px ;
+    width: 100%;
+}
+
+.bottom-ribbon p{
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.bottom-ribbon p a{
+    font-weight: bold;
+    color: #416de4;
+    text-decoration: none;
+}
+/* bottom ribbon close */
