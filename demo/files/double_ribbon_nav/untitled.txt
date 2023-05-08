@@ -1,7 +1,0 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
-
--  <i class="fa-brands fa-"></i>
-
-
-
-ribbon color #2169e6
