@@ -50,8 +50,8 @@
     box-shadow: 3px 2px #dceaee;
 }
 
-.logo-ribbon img{
-    height: 45px;
+.logo-ribbon .logo{
+    font-size= 30px;
     padding: 5px 0px 0px 20px;
 }
 
