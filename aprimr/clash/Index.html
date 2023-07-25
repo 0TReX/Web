@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClashNepal - Sell Buy COC accounts</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+<body>
+
+    <!-- Nav starts -->
+    <header>
+        <h2>ClashNepal</h2>
+        <!-- <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav> -->
+        <div class="sign-in-up">
+            <button type="button" onclick="popup('login-popup')">Login</button>
+            <button type="button" onclick="popup('register-popup')">Register</button>
+        </div>
+    </header>
+
+    <!-- sign-in-up starts -->
+    <!-- Login -->
+    <div class="popup-container" id="login-popup">
+        <div class="popup">
+            <form action="#">
+                <h2>
+                    <span>USER LOGIN</span>
+                    <button type="reset" onclick="popup('login-popup')">X</button>
+                </h2>
+                <input type="text" placeholder="E-mail or username">
+                <input type="password" placeholder="Password">
+                <button type="submit" class="login-btn">LOGIN</button>
+            </form>
+        </div>
+    </div>
+    <!-- Register -->
+    <div class="popup-container" id="register-popup">
+        <div class="register popup">
+            <form action="#">
+                <h2>
+                    <span>USER REGISTER</span>
+                    <button type="reset" onclick="popup('register-popup')">X</button>
+                </h2>
+                <input type="text" placeholder="Fullname">
+                <input type="text" placeholder="Username">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Password">
+                <button type="submit" class="register-btn">REGISTER</button>
+            </form>
+        </div>
+    </div>
+    <!-- sign-in-up ends -->
+
+    <!-- Nav ends -->
+
+    <!-- body starts -->
+    <!-- body ends -->
+
+
+    <!-- Script -->
+    <script>
+        function popup(popup_name) {
+            get_popup = document.getElementById(popup_name);
+            if (get_popup.style.display == "flex") {
+                get_popup.style.display = "none";
+            }
+            else {
+                get_popup.style.display = "flex";
+            }
+        }
+    </script>
+</body>
+
+</html>
