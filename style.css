@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Poopins;
+    src: url(assets/fonts/poopins.ttf);
+}
+
+@font-face {
+    font-family: Sofia;
+    src: url(asset/fonts/sofia.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 65px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #142930;
+}
+
+.navbar .logo {
+    display: inline-block;
+    /*for text logo -->*/
+    /*font-size: 35px; 
+    font-family: Poopins;
+    font-weight: bold;
+    color: #fff; */
+}
+
+.navbar .logo img {
+    padding: 0 40px;
+    height: 60px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 40px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0px 10px;
+}
+
+.navbar ul li a {
+    font-family: Poopins;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #90C9C9;
+}
+
+.check-btn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 60px;
+    margin-right: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media(max-width:800px) {
+    .navbar .logo img {
+        padding: 3px 40px;
+        height: 50px;
+    }
+
+    .check-btn {
+        display: block;
+    }
+
+    .navbar ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #142930;
+        top: 64px;
+        left: 0;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        display: block;
+    }
+
+    .navbar ul li a {
+        font-size: 25px;
+    }
+
+}
